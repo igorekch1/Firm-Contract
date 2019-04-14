@@ -59,18 +59,6 @@
                 </button>
                 <div class="collapse mt-4" id="myCollapsible">
                     <div class="card card-body">
-                        <div class="form-group row">
-                            <label for="inputNumberd" class="col-sm-2 col-form-label">Numberd</label>
-                            <div class="col-sm-10">
-                                <input id="inputNumberd" class="form-control mr-sm-2" type="search" placeholder="Search by numberd..." aria-label="Search" name="search_contract_numberd">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputNamed" class="col-sm-2 col-form-label">Named</label>
-                            <div class="col-sm-10">
-                                <input id="inputNamed" class="form-control mr-sm-2" type="search" placeholder="Search by named..." aria-label="Search" name="search_contract_named">
-                            </div>
-                        </div>
 
                         <div class="form-group row">
                             <label for="inputDatestart" class="col-sm-2 col-form-label">Date start</label>
@@ -96,32 +84,6 @@
                                     <input id="inputDateendto" class="form-control mr-sm-2" type="date" placeholder="Search by named..." aria-label="Search" name="search_contract_dateend_to">
                                 </div>
                             </div>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputSumd" class="col-sm-2 col-form-label">Sumd</label>
-                            <div class="col-sm-10">
-                                <div class="row">
-                                    <div class="col">
-                                        <input id="inputSumdfrom" class="form-control" type="number" placeholder="From" aria-label="Search" name="search_contract_sumd_from">
-                                    </div>
-                                    <div class="col">
-                                        <input id="inputSumdto" class="form-control" type="number" placeholder="To" aria-label="Search" name="search_contract_sumd_to">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputAvans" class="col-sm-2 col-form-label">Avans</label>
-                            <div class="col-sm-10">
-                                <div class="row">
-                                    <div class="col">
-                                        <input id="inputAvansfrom" class="form-control mr-sm-2" type="number" placeholder="From" aria-label="Search" name="search_contract_avans_from">
-                                    </div>
-                                    <div class="col">
-                                        <input id="inputAvansto" class="form-control mr-sm-2" type="number" placeholder="To" aria-label="Search" name="search_contract_avans_to">
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <button class="btn btn-outline-success my-2 my-sm-0 col-2 offset-5" type="submit" name="submit_search">Search</button>
